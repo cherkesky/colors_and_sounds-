@@ -8,6 +8,13 @@ car4 = {"make": BMW, "color": "White", top_speed=120}
 car5 = {"make": Subaru, "color": "Blue", top_speed=200}
 
 # Move all common properties in your vehicles to a new Vehicle class.
+class Vehicle:
+  def __init__(self, make, color, top_speed, wheels=4)
+  self.wheels = wheels
+  self.make = make
+  self color = color
+  self top_speed = top_speed
+
 # Create an instance of each vehicle.
 # Define a different value for each vehicle's properties.
 # Create a drive() method in the Vehicle class.
