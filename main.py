@@ -1,4 +1,5 @@
 from tesla import Tesla
+from zero import Zero
 
 
 # Practice: Custom Colors and Sounds
@@ -38,5 +39,8 @@ from tesla import Tesla
 # Make your vehicle instances perform all three behaviors.
 
 model_s = Tesla()
+fxs = Zero()
+
 
 model_s.drive()
+fxs.drive()
