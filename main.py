@@ -53,3 +53,5 @@ e350.drive()
 fxs.turn("left")
 fxs.stop()
 
+e350.turn("left")
+fxs.stop()

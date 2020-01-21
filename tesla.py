@@ -7,3 +7,11 @@ class Tesla(Vehicle):
 
     def drive(self):
         print("I'm an electric super car Zoooooooooooom!")
+
+    def turn(self, direction):
+      self.direction = direction
+      print (f"This Tesla is turning {self.direction} watch out!")
+
+    def stop(self):
+      self.direction = direction
+      print (f"This Tesla is STOPPING watch out!")

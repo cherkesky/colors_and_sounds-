@@ -7,3 +7,11 @@ class MB(Vehicle):
     
     def drive(self):
         print("Slick cool riding. Yehheee!")
+
+    def turn(self, direction):
+      self.direction = direction
+      print (f"This MB is turning {self.direction} watch out!")
+
+    def stop(self):
+      self.direction = direction
+      print (f"This MB is STOPPING watch out!")
