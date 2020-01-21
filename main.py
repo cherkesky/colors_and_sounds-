@@ -1,6 +1,7 @@
 from tesla import Tesla
 from zero import Zero
-
+from cessna import Cessna
+from mb import MB
 
 # Practice: Custom Colors and Sounds
 
@@ -40,7 +41,15 @@ from zero import Zero
 
 model_s = Tesla()
 fxs = Zero()
-
+mx410 = Cessna()
+e350 = MB()
 
 model_s.drive()
 fxs.drive()
+mx410.drive()
+e350.drive()
+
+
+fxs.turn("left")
+fxs.stop()
+
